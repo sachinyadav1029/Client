@@ -5,8 +5,9 @@ const App = () => {
   const [data , Setdata] = useState("")
   const handleclick = async()=>{
      const response = prompt("Enter your color name :");
-     let res = await axios.get(`https://client-blush-psi-28.vercel.app/${response}`);
+     let res = await axios.get(`https://server-fbu4.onrender.com/${response}`);
      Setdata(res.data);
+
 
 
   }

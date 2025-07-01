@@ -14,9 +14,10 @@ const App = () => {
   return (  
    <>
     <div style={{height:"100vh" , width:"100vw" , backgroundColor:data}}>
+         <button onClick={handleclick}>Click</button>
+
      
     </div>
-     <button onClick={handleclick}>Click</button>
    </>
   )
 }
